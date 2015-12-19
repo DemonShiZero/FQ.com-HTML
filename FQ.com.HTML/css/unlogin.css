@@ -1,0 +1,490 @@
+@charset "utf-8";
+ul li{
+    list-style: none;
+}
+body{
+    background: #ffffff;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+img.banner{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+}
+.logo{
+    width: 11.5%;
+    float: left;
+    padding-top: 20px;
+}
+.logo img{
+    display: block;
+    width: 100%;
+}
+
+.btn-toolbar.banner{
+    padding-top: 20px;
+    float: right;
+
+}
+.btn-toolbar.banner .btn-register{
+    background-color: rgba(58,137,249,0.6);
+    border: 0px solid #ffffff;
+}
+.btn-toolbar.banner .btn-login{
+    background-color:  rgba(0,0,0,0);
+    padding: 4px 9px;
+}
+.btn-toolbar.banner .btn-login:hover{
+    background-color: #ffffff;
+}
+.btn-toolbar.banner .btn-register:hover{
+    background-color: #3a89f9;
+}
+
+.btn-toolbar.banner .btn-register span{
+    color: #ffffff;
+}
+.btn-toolbar.banner .btn-login span{
+    color: #ffffff;
+}
+.banner-title{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    font-family: "幼圆";
+    color: #ffffff;
+}
+.banner-subTitle{
+    width: 26%;
+    margin: auto;
+}
+.banner-subTitle img{
+    display: block;
+    width: 100%;
+}
+.form-control.search{
+    height: 34px;
+    background-color: rgba(0,0,0,0.2);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-right: 0px;
+}
+.btn.btn-default.search{
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid #ffffff;
+    border-left: 0px;
+}
+
+.hotWord ul li{
+    float: left;
+    padding: 0 10px;
+    color: rgba(256,265,256,0.57);
+}
+
+.content-line{
+    height: 88px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    margin-bottom: 40px;
+}
+.content-title{
+    height: 30px;
+    width: 160px;
+    color: #888888;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    text-align: center;
+    position: absolute;
+    top:73px;
+    left: 520px;
+    background: #ffffff;
+}
+
+/*产品列表*/
+.row.product .productItem{
+    border: 1px solid #cccccc;
+    margin-top:20px;
+    position: relative;
+}
+img.img-product{
+    width: 100%;
+    display: block;
+}
+.dec{
+    border-top: 0px;
+}
+.dec .dec-title{
+    text-align: left;
+    font-size: 18px;
+    color: #333333;
+    padding: 12px 0 0 12px;
+}
+.dec .dec-detail{
+    padding: 0 1px 0 13px;
+    font-size: 14px;
+    color: #888888;
+}
+.eye-heart{
+    padding: 2px 16px 16px 10px;
+}
+.eye-heart .heart{
+    float: right;
+}
+.eye-heart .time{
+    color: #9a9a9a;
+}
+.eye-heart .heart span{
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+}
+.eye-heart .heart .img{
+    display: block;
+    float: right;
+    height: 12px;
+    width: 14px;
+    margin: 0 4px;
+    background: url("../images/heart_05.png") no-repeat center;
+}
+.eye-heart .heart .img.hovered{
+    background: url("../images/heart-after_05.png") no-repeat center;
+}
+.eye-heart .eye{
+    float: right;
+}
+.eye-heart .eye span{
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+}
+.eye-heart .eye .img{
+    display: block;
+    float: right;
+    height: 12px;
+    width: 20px;
+    margin: 0 4px;
+    background: url("../images/eye_03.png") no-repeat center;
+}
+.eye-heart .eye .img.hovered{
+    background: url("../images/eye-after_03.png") no-repeat center;
+}
+.productItem .tip{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    z-index: 100;
+}
+.productItem .tip .img-tip{
+    width: 100%;
+    display: block;
+    z-index: 100;
+}
+.productItem .tip .tip-title{
+    padding: 14px 0 0 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 200;
+}
+.content-title.more{
+    padding: 0 40px;
+    width: 280px;
+}
+.content-title .more{
+    height: 30px;
+    width: 160px;
+    margin: auto;
+    background: #f0f0f0;
+}
+
+/*****网页底部*****/
+.row-footer{
+    padding-top: 90px;
+}
+.row-footer .footer{
+    min-height: 206px;
+    background-color: #323436;
+}
+.row-footer .footer .footer-title{
+    padding: 44px 0 0 24px;
+    font-size: 16px;
+    float: left;
+
+}
+.footer-left{
+    position: relative;
+}
+.footer-link{
+    padding-top: 40px;
+}
+.footer-link ul{
+    height: 16px;
+    padding: 0;
+}
+.footer-link ul li{
+    height: 16px;
+    display: block;
+    float: left;
+}
+.footer-link ul li.space{
+    height: 10px;
+    margin: 5px 16px 0 16px;
+    border-left: 1px solid #cccccc;
+}
+.footer-link ul li a{
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    color: rgba(255,255,255,0.5);
+}
+.copyright{
+    color:rgba(255,255,255,0.5);
+    padding-bottom: 20px;
+}
+.footer-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.barcode{
+    padding-top: 58px;
+}
+ul.barcode-list{
+    width: auto;
+    padding: 0;
+}
+.barcode-list li{
+    float: left;
+}
+.barcode-list li.space{
+    width: 44px;
+    height: 20px;
+}
+.barcode-dec{
+    text-align: center;
+    font-size: 14px;
+}
+
+/**
+*  弹出层样式
+*/
+.becloud{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.becloud-up{
+    display: block;
+    position: absolute;
+    width: 544px;
+    background-color: #ffffff;
+    z-index: 500;
+}
+.panel-login-third{
+    position: relative;
+}
+.panel-login-register{
+     position: relative;
+}
+.panel-login-self{
+    position: relative;
+}
+.panel-login-password{
+    position: relative;
+}
+.logo-login{
+    width: 133px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo-login .img-logo-login{
+    display: block;
+}
+.line{
+    position: relative;
+    width: 280px;
+    height: 32px;
+    margin: auto;
+    border-top: 1px solid #cccccc;
+}
+.line .line-title{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    padding: 0 10px;
+    top: -12px;
+    left: 40px; /*父元素的长度减去子元素长度的一半*/
+    font-size: 16px;
+    color: #9a9a9a;
+    background-color: #ffffff;
+}
+.panel-login-self .icons{
+    padding-bottom: 28px;
+}
+
+.icons ul.icon-list{
+    padding-left: 0;
+    width: 200px;
+    margin: auto;
+}
+.icons ul.icon-list li{
+    display: block;
+    float: left;
+    padding: 0 18px;
+}
+.panel-login-third div.link{
+    padding-top: 24px;
+    text-align: center;
+    color: #3a89f9;
+    font-size: 16px;
+}
+.login-footer{
+    padding-top: 22px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    text-align: right;
+    color: #333333;
+    font-size: 14px;
+}
+.login-footer .link{
+    color: #3a89f9;
+    font-size: 14px;
+}
+.login-footer .link-left{
+    display: block;
+    float: left;
+}
+.login-footer .login-footer-left{
+    float: left;
+}
+.panel-login-self .login-footer{
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+.closeX{
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/close_03.png") no-repeat center;
+}
+.closeX:hover{
+    cursor: pointer;
+}
+.form-register{
+    width: 280px;
+    margin: auto;
+}
+.form-login{
+    width: 280px;
+    margin: auto;
+}
+div.checkbox {
+    color: #9a9a9a;
+    font-size: 14px;
+}
+div.checkbox .link{
+    color: #3a89f9;
+    font-size: 14px;
+}
+.btn-register-submit,.btn-login-submit{
+    width: 100%;
+    font-size: 18px;
+    background-color: #4790f9;
+}
+.login-footer-left{
+    padding: 14px 0 30px 0;
+    float: left;
+}
+
+.visible-window{
+    position: absolute;
+    overflow: hidden;
+    z-index: 500;
+}
+.link{
+    cursor: pointer;
+}
+/*屏幕小于600时限制样式*/
+@media screen and (max-width: 600px){
+    .logo{
+        padding-top: 10px;
+    }
+    .btn-toolbar.banner{
+        padding-top: 10px;
+    }
+    .btn-toolbar.banner .btn-register{
+        width: 32px;
+        padding: 2px 4px;
+    }
+    .btn-toolbar.banner .btn-login{
+        width: 32px;
+        padding: 2px 4px;
+    }
+    .form-control.search{
+        height: 20px;
+        padding: 2px 5px;
+        font-size: 11px;
+    }
+    .btn.btn-default.search{
+        height: 20px;
+        padding: 1px 3px;
+    }
+    .barcode-list{
+        padding-top:12px;
+    }
+    .becloud-up{
+        width: 300px;
+    }
+
+}
+
+/*设置透明度 对于IE6、7、8有效*/
+@media \0screen\,screen\9 {
+    .btn-toolbar.banner .btn-register{
+        background-color: #00b5ec;
+        filter:Alpha(opacity=60);
+        position: static;
+        *zoom: 1;
+    }
+    .btn-toolbar.banner .btn-register span{
+        position: relative;
+    }
+    .btn-toolbar.banner .btn-login{
+        background-color: #000;
+        filter:Alpha(opacity=20);
+        position: static;
+        *zoom: 1;
+    }
+    .btn-toolbar.banner .btn-login span{
+        position: relative;
+    }
+    .form-control.search{
+        background-color: #000;
+        filter:Alpha(opacity=20);
+        position: static;
+        *zoom: 1;
+        border:1px solid #ffffff;
+    }
+    .btn.btn-default.search{
+        background-color: #000;
+        filter:Alpha(opacity=20);
+        position: static;
+        *zoom: 1;
+        border:1px solid #ffffff;
+    }
+}
